@@ -10,28 +10,36 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
     min-height: 100px;
     padding: 20px;
 }
 
-h1 {
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 10px;
+header {
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
 }
 
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+    position: relative;
+    bottom: 10px;
+}
 
-a {
+body > a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #e0e0e0;
-    width: 90%;
-    height: 70px;
+    background-color: hsla(0, 0%, 85%, 1);
+    width: 100%;
+    height: 5.5rem;
     padding: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     text-decoration: none;
     color: black;
     border-radius: 10px;
@@ -39,9 +47,10 @@ a {
     font-weight: bold;
     border: 1px solid #d0d0d0;
     position: relative;
+    top: 10px;
 }
 
-a img {
+body > a img {
     width: 2rem;
     height: 2rem;
     position: relative;
@@ -49,27 +58,52 @@ a img {
     right: -0.5rem;
 }
 
-nav {
+p {
+    position: relative;
+    top: 25px;
+    right: 10px;
+}
+
+footer {
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: white;
-    padding: 10px 0;
     border-top: 2px solid black;
     display: flex;
     justify-content: space-around;
-}
-
-nav a {
-    width: 30px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    padding: 0.5rem 0;
+    background-color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
-nav img {
-    width: 100%;
-    height: 100%;
+footer a {
+    width: 6rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+footer img {
+    width: 2rem;
+    height: 2rem;
+    display: block; 
+}
+
+.foot {
+    background-color: white;
+}
+
+.imgf {
+    width: 2rem;
+    height: 2rem;
+}
+
+.home {
+    width: 4.5rem;
+    height: 4.5rem;
+    display: block;
 }
