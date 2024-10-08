@@ -12,22 +12,16 @@ header {
     justify-content: center;
     align-items: center;
     padding: 1rem 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 main {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap; /* Permite que os itens pulem para a próxima linha */
     gap: 1rem;
+    justify-content: center; /* Centraliza os itens em cada linha */
     padding: 1rem;
-}
-
-ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
 }
 
 a {
@@ -68,6 +62,8 @@ footer {
     align-items: center;
     padding: 0.5rem 0;
     background-color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 footer a {
@@ -78,4 +74,31 @@ footer a {
 footer img {
     width: 2rem;
     height: 2rem;
+}
+
+.foot{
+    background-color: white;
+}
+.imgf{
+    width: 2rem;
+    height: 2rem;
+}
+
+.home{
+    width: 4.5rem;
+    height: 4.5rem;
+    
+}
+
+@media (min-width: 768px) {
+    main {
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 1024px) {
+    a {
+        width: 10rem;
+        height: 8rem;
+    }
 }
