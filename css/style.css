@@ -1,32 +1,60 @@
-html, body{ 
+html, body { 
     width: 100%;
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-img{
-    width: 3rem;
-    height: 3rem;
-}
-
-header{
+header {
     border-bottom: 2px solid black;
     display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 1rem;
-    margin: 1rem;
+    padding: 1rem 0;
 }
 
-main{
-    margin-right: 1rem;
-    margin-left: 1rem;
+main {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    gap: 1rem;
+    padding: 1rem;
 }
 
-ul{
+ul {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    width: 8rem;
+    height: 6rem;
+    padding: 0.5rem;
+}
+
+img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
 }
 
 footer {
@@ -36,36 +64,18 @@ footer {
     right: 0;
     border-top: 2px solid black;
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    padding: 0.5rem 0;
+    background-color: white;
 }
 
-
-
-.titulo{
-    font-weight: bold;
-    font-size: 1.5rem;
-    text-align: center;
-    flex-grow: 1;
-    margin-right: 45px;
+footer a {
+    width: 3rem;
+    height: 3rem;
 }
 
-.transporte-item {
-    width: 9rem;
-    height: 4rem;
-    display: flex;
-    align-items: center;
-    background-color: #e0e0e0;
-    padding: 1rem;
-    margin: 0.5rem;
-    padding-top: 1rem;
-    border-radius: 10%;
-}
-
-.linha{
-    display: flex;
-    flex-direction: row;
+footer img {
+    width: 2rem;
+    height: 2rem;
 }
