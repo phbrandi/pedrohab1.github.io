@@ -17,6 +17,14 @@ header{
     margin-top: 10px;
 }
 
+.titulo{
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    flex-grow: 1;
+    margin-right: 45px;
+}
+
 .transporte-item {
     display: flex;
     align-items: center;
