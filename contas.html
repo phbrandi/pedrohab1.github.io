@@ -4,16 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contas</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <h1>Como pagar minhas contas?</h1>
-    <h2>Via boleto físico</h2>
-        <a href="boletofisicotxt.html">Tutorial escrito</a>
-        <a href="">Tutorial de vídeo</a>
-    <h2>Via boleto digital</h2>
-        <a href="boletoonlinetxt.html">Tutorial escrito</a>
-        <a href="">Tutorial de vídeo</a>
-        
-    <a href="index.html">Home</a>
+    
+    <div class="container">
+        <!-- Boleto físico -->
+        <div class="boleto-section">
+            <h2>Via boleto físico</h2>
+            <div class="tutorials">
+                <a href="boletofisicotxt.html" class="tutorial">
+                    <img src="/img/texto-removebg-preview.png" alt="Texto" class="icon">
+                    <p>Tutorial escrito</p>
+                </a>
+                <a href="boletofisicovideo.html" class="tutorial">
+                    <img src="/img/video-removebg-preview.png" alt="Vídeo" class="icon">
+                    <p>Tutorial de vídeo</p>
+                </a>
+            </div>
+        </div>
+
+        <!-- Boleto online -->
+        <div class="boleto-section">
+            <h2>Via boleto online</h2>
+            <div class="tutorials">
+                <a href="boletoonlinetxt.html" class="tutorial">
+                    <img src="/img/texto-removebg-preview.png" alt="Texto" class="icon">
+                    <p>Tutorial escrito</p>
+                </a>
+                <a href="boletoonlinevideo.html" class="tutorial">
+                    <img src="/img/video-removebg-preview.png" alt="Vídeo" class="icon">
+                    <p>Tutorial de vídeo</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Rodapé -->
+    <footer>
+        <a href="config.html"><img src="/img/ajustes.png" alt="Configurações"></a>
+        <a href="index.html"><img src="/img/home-removebg-preview.png" alt="Home" class="home-icon"></a>
+        <a href="notificacao.html"><img src="/img/notificacao.png" alt="Notificações"></a>
+    </footer>
 </body>
 </html>
