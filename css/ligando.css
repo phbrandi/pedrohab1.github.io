@@ -1,0 +1,43 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo do corpo */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+/* Estilo do título */
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/* Estilo do botão de desligar */
+.end-call {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.end-call:hover {
+    background-color: darkred;
+}

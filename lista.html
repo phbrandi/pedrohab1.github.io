@@ -3,25 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de mercado</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+    <title>Lista de Seleção</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/lista.css">
 </head>
 <body>
-    <h1>Lista de mercado:</h1>
-    <p>Minha Lista:</p>
-    <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-    </ul>
+    <header>
+        <h1>Selecione os itens</h1>
+    </header>
 
-    <form method = 'post'>
-        <label id="input-texto">Adicionar itens:</label><br>
-        <input type="text" class="input-texto" name="input-texto" ><br><br>
-    </form>
-    <a href="mercado.html">Voltar</a>
-    <a href="index.html">Home</a>
+    <main>
+        <ul class="item-list">
+            <li class="item">
+                <label>
+                    <input type="checkbox">
+                    <span>Item 1</span>
+                </label>
+            </li>
+            <li class="item">
+                <label>
+                    <input type="checkbox">
+                    <span>Item 2</span>
+                </label>
+            </li>
+            <li class="item">
+                <label>
+                    <input type="checkbox">
+                    <span>Item 3</span>
+                </label>
+            </li>
+            <li class="item">
+                <label>
+                    <input type="checkbox">
+                    <span>Item 4</span>
+                </label>
+            </li>
+        </ul>
+        <form class="add-item-form">
+            <input type="text" id="new-item" placeholder="Digite o novo item">
+            <button type="submit">Adicionar</button>
+        </form>
+    </main>
+
+    <footer>
+        <a href="#"><img src="img/ajustes.png" alt="Configurações"></a>
+        <a href="index.html"><img src="img/home-removebg-preview.png" alt="Home" class="home-icon"></a>
+        <a href="#"><img src="img/notificacao.png" alt="Notificações"></a>
+    </footer>
 </body>
 </html>
