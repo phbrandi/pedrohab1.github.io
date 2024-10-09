@@ -33,7 +33,7 @@ main {
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
-    padding: 6rem 1rem 1rem; /* Ajuste para espaço abaixo do header fixo */
+    padding: 6rem 1rem 1rem; 
 }
 
 a {
@@ -129,15 +129,4 @@ footer img {
     height: 4.5rem;
 }
 
-/* @media (min-width: 768px) {
-    main {
-        justify-content: space-around;
-    }
-}
 
-@media (min-width: 1024px) {
-    a {
-        width: 10rem;
-        height: 8rem;
-    }
-} */
