@@ -3,11 +3,16 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Bree Serif";
-    font-weight: 400;
-    font-style: normal;
 }
 
+
+.arimo {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+  
 header {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -22,6 +27,8 @@ header {
     padding: 1rem 0;
     background-color: white;
     z-index: 10;
+    
+
 }
 
 main {
@@ -44,6 +51,7 @@ a {
     width: 8rem;
     height: 6rem;
     padding: 0.5rem;
+    font-size: 10rem;
 }
 
 .imga {
