@@ -1,80 +1,69 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: "Patua One", serif;
 }
 
 body {
+
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 6rem 2rem 2rem; /* Espaço superior ajustado para o header fixo */
+    min-height: 5rem;
+    font-family: "Patua One", serif;
     font-weight: 400;
     font-style: normal;
-    min-height: 8rem;
 }
 
+
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    border-bottom: 0.125rem solid blue;
+    border-bottom: solid black;
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 1rem 0;
-    background-color: white;
-    margin: 0 1rem;
+    padding: 1rem;
+    margin: 1rem;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
-    text-align: center;    
-}
-
-main {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 2rem; 
-    padding-bottom: 6rem;
-}
-
-main a{
-    color: blue;
+    text-align: center;
+    margin-bottom: 15px;
+    position: relative;
+    bottom: 10px;
 }
 
 body > a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #e0e0e0;
+    background-color: hsla(0, 0%, 85%, 1);
     width: 100%;
-    max-width: 20rem;
     height: 5.5rem;
-    padding: 1rem;
-    margin: 1rem 0;
+    padding: 15px;
+    margin-bottom: 30px;
     text-decoration: none;
     color: black;
-    border-radius: 10px;
-    font-size: 1.125rem;
+    border-radius: 10%;
+    font-size: 1.5rem;
     font-weight: bold;
-    border: 0.063rem solid #d0d0d0;
+    border: .1rem solid #d0d0d0;
+    position: relative;
+    top: 10px;
 }
 
 body > a img {
     width: 2rem;
     height: 2rem;
-    margin-right: 1rem;
+    position: relative;
+    top: -0.9rem;
+    right: -0.5rem;
 }
 
 p {
-    margin: 0;
+    position: relative;
+    top: 25px;
+    right: 10px;
 }
 
 footer {
@@ -82,13 +71,14 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    border-top: 0.125rem solid blue;
+    border-top: .1rem solid black;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     background-color: white;
-    margin: 0 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 footer a {
@@ -102,6 +92,7 @@ footer a {
 footer img {
     width: 2rem;
     height: 2rem;
+    display: block; 
 }
 
 .foot {
@@ -114,6 +105,8 @@ footer img {
 }
 
 .home {
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 2rem;
+    height: 2rem;
+    display: block;
 }
+
