@@ -4,21 +4,27 @@ html, body {
     padding: 0;
     box-sizing: border-box;
 }
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
   
 header {
-    font-family: Arial;
     margin-left: 1rem;
     margin-right: 1rem;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    border-bottom: .1rem solid black;
+    border-bottom: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 1rem;
-    padding: .5rem 0;
+    padding: 1rem 0;
     background-color: white;
 }
 
@@ -38,7 +44,7 @@ a {
     align-items: center;
     justify-content: center;
     background-color: #e0e0e0;
-    border-radius: 10%;
+    border-radius: 8px;
     width: 8rem;
     height: 6rem;
     padding: 0.5rem;
@@ -81,7 +87,7 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    border-top: .1rem solid black;
+    border-top: 2px solid black;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -123,3 +129,15 @@ footer img {
     height: 4.5rem;
 }
 
+/* @media (min-width: 768px) {
+    main {
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 1024px) {
+    a {
+        width: 10rem;
+        height: 8rem;
+    }
+} */
