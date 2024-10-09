@@ -10,10 +10,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 6rem 2rem 2rem; /* Espaço superior ajustado para o header fixo */
+    padding: 6rem 2rem 2rem; 
     font-weight: 400;
     font-style: normal;
     min-height: 8rem;
+    font-family: "Kadwa", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 header {

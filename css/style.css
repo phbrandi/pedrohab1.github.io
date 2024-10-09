@@ -8,6 +8,9 @@
 body {
     padding: 1rem;
     background-color: #ffffff;
+    font-family: "Kadwa", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 header h1 {
