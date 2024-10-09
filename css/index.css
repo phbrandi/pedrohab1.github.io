@@ -4,27 +4,21 @@ html, body {
     padding: 0;
     box-sizing: border-box;
 }
-
-
-.arimo {
-  font-family: "Arimo", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
   
 header {
+    font-family: Arial;
     margin-left: 1rem;
     margin-right: 1rem;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    border-bottom: 2px solid black;
+    border-bottom: .1rem solid black;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem 0;
+    margin-top: 1rem;
+    padding: .5rem 0;
     background-color: white;
 }
 
@@ -44,7 +38,7 @@ a {
     align-items: center;
     justify-content: center;
     background-color: #e0e0e0;
-    border-radius: 8px;
+    border-radius: 10%;
     width: 8rem;
     height: 6rem;
     padding: 0.5rem;
@@ -87,7 +81,7 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    border-top: 2px solid black;
+    border-top: .1rem solid black;
     display: flex;
     justify-content: space-around;
     align-items: center;
