@@ -1,4 +1,3 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -11,20 +10,18 @@ body {
     background-color: #ffffff;
 }
 
-/* Estilo do Header */
 header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     text-align: center;
     padding: 1rem;
-    border-bottom: 2px solid black;
+    border-bottom: .1rem solid black;
     margin-bottom: 2rem;
 }
 
-/* Seções dos tutoriais */
 .tutorial-section {
     background-color: #e0e0e0;
-    border-radius: 10px;
+    border-radius: 8%;
     padding: 1rem;
     margin: 1rem 0;
     text-align: center;
@@ -36,7 +33,6 @@ header h1 {
     margin-bottom: 1rem;
 }
 
-/* Links dos tutoriais */
 .tutorial-options {
     display: flex;
     justify-content: center;
@@ -48,7 +44,7 @@ header h1 {
     width: 8rem;
     height: 6rem;
     background-color: #d3d3d3;
-    border-radius: 8px;
+    border-radius: 10%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -73,7 +69,6 @@ header h1 {
     margin: 0;
 }
 
-/* Estilo do Footer */
 footer {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -81,7 +76,7 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    border-top: 2px solid black;
+    border-top: .1rem solid black;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -104,7 +99,7 @@ form {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 24rem; /* Ajuste o valor conforme necessário */
+    margin-top: 24rem; 
 }
 
 
@@ -113,12 +108,7 @@ form {
     max-width: 50rem;
     padding: 0.75rem;
     font-size: 1rem;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    text-align: center;
-}
-
-.input-texto::placeholder {
-    color: #999;
+    border-radius: 8%;
+    border: .1rem solid #ccc;
     text-align: center;
 }
