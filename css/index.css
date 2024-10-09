@@ -3,6 +3,9 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Kadwa", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .montserrat {
@@ -12,6 +15,12 @@ html, body {
   font-style: normal;
 }
 
+.kadwa-regular {
+    font-family: "Kadwa", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
   
 header {
     margin-left: 1rem;
@@ -33,7 +42,7 @@ main {
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
-    padding: 6rem 1rem 1rem; 
+    padding: 6rem 1rem 1rem; /* Ajuste para espaço abaixo do header fixo */
 }
 
 a {
@@ -129,4 +138,15 @@ footer img {
     height: 4.5rem;
 }
 
+/* @media (min-width: 768px) {
+    main {
+        justify-content: space-around;
+    }
+}
 
+@media (min-width: 1024px) {
+    a {
+        width: 10rem;
+        height: 8rem;
+    }
+} */
