@@ -7,15 +7,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Busca de informações</h1>
+    <header>
+        <h1>Busca de informações</h1>
+    </header>
+    <main>
+        <form method='post'>
+            <input type="text" class="input-texto" placeholder="O que deseja saber?"><br><br>
+        </form>
+    </main>
 
-    <form method = 'post'>
-        <label id="input-texto">Pesquisar:</label><br>
-        <input type="text" class="input-texto" ><br><br>
-    </form>
-
-    <a href="index.html">Home</a>
+    <footer>
+        <a href="config.html"><img src="img/ajustes.png" alt="Configurações"></a>
+        <a href="index.html"><img src="img/home-removebg-preview.png" alt="Home" class="home-icon"></a>
+        <a href="notificacao.html"><img src="img/notificacao.png" alt="Notificações"></a>
+    </footer>
 </body>
 </html>

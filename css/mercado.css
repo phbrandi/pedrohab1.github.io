@@ -1,0 +1,145 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+/* Estilo do Header */
+header {
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* Sugestões */
+.suggestions {
+    background-color: #e0e0e0;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    margin: 1rem auto;
+    width: 90%;
+}
+
+.suggestions h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.suggestions a {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #d3d3d3;
+    border-radius: 8px;
+    width: 5rem;
+    height: 5rem;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.suggestions img {
+    width: 100%;
+    height: auto;
+}
+
+/* Opções */
+.options {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    gap: 1rem;
+    width: 90%;
+    height: 7rem;
+    margin: 0 auto; 
+}
+
+.options a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    width: 100%; 
+    flex: 1;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.options .icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Opções Longas */
+.long-option {
+    text-align: center;
+    margin: 0.5rem auto; 
+    width: 100%;
+}
+
+.long-option a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 90%;
+    max-width: 50rem; 
+    margin: 0 auto;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.long-option .icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+/* Estilo do Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+footer a img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.home-icon {
+    width: 4.5rem;
+    height: 4.5rem;
+}

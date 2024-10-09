@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    border-bottom: 1px solid black;
+    border-bottom: solid black;
     display: flex;
     align-items: center;
     padding: 1rem;
@@ -107,3 +107,4 @@ footer img {
     height: 2rem;
     display: block;
 }
+
