@@ -10,10 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 6rem 2rem 2rem; 
-    font-weight: 400;
-    font-style: normal;
-    min-height: 8rem;
+    padding: 6rem 1rem 2rem; 
     font-family: "Kadwa", serif;
     font-weight: 400;
     font-style: normal;
@@ -24,7 +21,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    border-bottom: 0.125rem solid black;
+    border-bottom: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,29 +45,28 @@ main {
     padding-bottom: 6rem;
 }
 
-
-body > a {
+main a {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #e0e0e0;
     width: 100%;
     max-width: 20rem;
-    height: 5.5rem;
+    height: 5rem;
     padding: 1rem;
-    margin: 1rem 0;
+    margin: 0.5rem 0;
     text-decoration: none;
     color: black;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     font-size: 1.125rem;
     font-weight: bold;
-    border: 0.063rem solid #d0d0d0;
+    border: 1px solid #d0d0d0;
 }
 
-body > a img {
+main a img {
     width: 2rem;
     height: 2rem;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
 }
 
 p {
@@ -82,7 +78,7 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    border-top: 0.125rem solid black;
+    border-top: 2px solid black;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -92,7 +88,7 @@ footer {
 }
 
 footer a {
-    width: 6rem;
+    width: 4rem;
     height: 3rem;
     display: flex;
     align-items: center;
@@ -114,6 +110,6 @@ footer img {
 }
 
 .home {
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 4rem;
+    height: 4rem;
 }
