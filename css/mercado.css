@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 
 body {
@@ -91,7 +90,7 @@ header h1 {
     margin-bottom: 0.5rem;
 }
 
-/* Opções Longas */
+
 .long-option {
     text-align: center;
     margin: 0.5rem auto; 
@@ -119,7 +118,7 @@ header h1 {
     margin-right: 0.5rem;
 }
 
-/* Estilo do Footer */
+
 footer {
     position: fixed;
     bottom: 0;
