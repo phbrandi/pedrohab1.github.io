@@ -50,6 +50,8 @@ main {
 .item-list {
     list-style: none;
     width: 100%;
+    max-height: 300px;  /* Define a altura máxima para a lista */
+    overflow-y: auto;    /* Habilita a rolagem vertical */
 }
 
 .item {
