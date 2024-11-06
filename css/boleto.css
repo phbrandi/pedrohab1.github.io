@@ -1,0 +1,56 @@
+/* Estilos para o conteúdo do tutorial */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.6;
+    padding: 20px;
+}
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+p {
+    margin-bottom: 15px;
+}
+ul, ol {
+    margin-bottom: 15px;
+}
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+strong {
+    color: #0056b3;
+}
+.dica {
+    background-color: #f0f8ff;
+    padding: 10px;
+    border-left: 5px solid #0056b3;
+    margin: 15px 0;
+    font-style: italic;
+}
+
+/* Estilos para o footer */
+.footer {
+    margin-top: auto;
+    padding: 20px 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+.line {
+    border-top: 1px solid #000;
+    width: 80%;
+    margin: 0 auto;
+}
+.footer-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+.icon {
+    font-size: 24px;
+    color: #000;
+}
+
