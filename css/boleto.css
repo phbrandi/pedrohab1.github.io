@@ -1,43 +1,45 @@
 /* Estilos para o conteúdo do tutorial */
 body {
-    font-family: Arial, sans-serif;
-    max-width: 600px;
-    margin: auto;
-    line-height: 1.6;
-    padding: 20px;
+    font-family: Arial, sans-serif; /* Define a fonte usada no corpo */
+    max-width: 600px; /* Define uma largura máxima para o conteúdo */
+    margin: auto; /* Centraliza o conteúdo horizontalmente */
+    line-height: 1.6; /* Define o espaçamento entre as linhas */
+    padding: 20px; /* Adiciona espaçamento interno ao redor do conteúdo */
 }
 
 .content {
-    padding-bottom: 80px; /* Espaço extra para o footer fixo */
+    padding-bottom: 80px; /* Adiciona um espaço extra na parte inferior do conteúdo para evitar que o footer fixo sobreponha o texto */
 }
 
 h1, h2 {
-    color: #333;
-    text-align: center;
+    color: #333; /* Define a cor dos títulos */
+    text-align: center; /* Centraliza os títulos */
 }
 p {
-    margin-bottom: 15px;
+    margin-bottom: 15px; /* Adiciona espaçamento inferior aos parágrafos */
 }
 ul, ol {
-    margin-bottom: 15px;
+    margin-bottom: 15px; /* Adiciona espaçamento inferior às listas */
 }
 ul {
-    list-style-type: disc;
-    padding-left: 20px;
+    list-style-type: disc; /* Define o estilo dos marcadores das listas como círculo sólido */
+    padding-left: 20px; /* Adiciona um recuo à esquerda nas listas */
 }
 strong {
-    color: #0056b3;
+    color: #0056b3; /* Define a cor do texto em negrito */
 }
 .dica {
-    background-color: #f0f8ff;
-    padding: 10px;
-    border-left: 5px solid #0056b3;
-    margin: 15px 0;
-    font-style: italic;
+    background-color: #f0f8ff; /* Define a cor de fundo para o bloco de dicas */
+    padding: 10px; /* Adiciona espaçamento interno ao redor da dica */
+    border-left: 5px solid #0056b3; /* Adiciona uma borda esquerda para destacar a dica */
+    margin: 15px 0; /* Adiciona espaçamento acima e abaixo da dica */
+    font-style: italic; /* Aplica estilo itálico ao texto da dica */
 }
 
 /* Estilos para o footer */
 footer {
+    margin-left: 1rem;
+    margin-right: 1rem;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -52,25 +54,23 @@ footer {
 }
 
 footer a {
-    width: 3rem;
-    height: 3rem;
+    width: 3rem; /* Define uma largura fixa para os links dos ícones no footer */
+    height: 3rem; /* Define uma altura fixa para os links dos ícones no footer */
+    display: flex; /* Usa o flexbox para centralizar os ícones */
+    justify-content: center; /* Centraliza os ícones horizontalmente */
+    align-items: center; /* Centraliza os ícones verticalmente */
 }
 
 footer img {
-    width: 2rem;
-    height: 2rem;
+    width: 2.5rem; /* Define uma largura uniforme para todos os ícones */
+    height: 2.5rem; /* Define uma altura uniforme para todos os ícones */
 }
 
 .foot {
-    background-color: white;
-}
-
-.imgf {
-    width: 2rem;
-    height: 2rem;
+    background-color: white; /* Define a cor de fundo dos links no footer */
 }
 
 .home {
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 5.5rem; /* Define uma largura maior específica para o ícone "Home" */
+    height: 5.5rem; /* Define uma altura maior específica para o ícone "Home" */
 }
