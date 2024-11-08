@@ -12,17 +12,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kadwa&display=swap" rel="stylesheet">
+    <script src="js/busca.js" defer></script>
 </head>
 <body>
     <header>
         <h1>Busca de informações</h1>
     </header>
     <main>
-        <form method='post'>
-            <input type="text" class="input-texto" placeholder="O que deseja saber?"><br><br>
+        <div id="chat-box"></div>
+        <form method="post" id="chat-form">
+            <input type="text" class="input-texto" placeholder="O que deseja saber?" id="user-input">
+            <button type="button" id="send-button">Enviar</button>
         </form>
     </main>
-
+    
     <footer>
         <a href="config.html"><img src="img/ajustes.png" alt="Configurações"></a>
         <a href="index.html"><img src="img/home-removebg-preview.png" alt="Home" class="home-icon"></a>
