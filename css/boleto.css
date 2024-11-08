@@ -6,6 +6,20 @@ body {
     line-height: 1.6; /* Define o espaçamento entre as linhas */
     padding: 20px; /* Adiciona espaçamento interno ao redor do conteúdo */
 }
+header h1 {
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+    border-bottom: .1rem solid black;
+    margin-bottom: .7rem;
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 0;
+}
 
 .content {
     padding-bottom: 80px; /* Adiciona um espaço extra na parte inferior do conteúdo para evitar que o footer fixo sobreponha o texto */
